@@ -28,7 +28,7 @@ namespace StockApp.Services.ProductService
             await _historyService.CreateNewHistoryElement(productId, product.StatusId);
             await _historyService.SaveChanges();
 
-            await _productRepository.UpdateProduct(product);
+            await _productRepository.Update(product);
             await _productRepository.SaveChanges();
         }
     }

@@ -44,7 +44,7 @@ namespace StockApp.Data
             return await _context.Products.Include(p => p.Status).Where(p => p.StatusId == statusId).ToListAsync();
         }
 
-        public async Task UpdateProduct(Product product)
+        public async Task Update(Product product)
         {
             _context.Products.Update(product);
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ff8Vhca6YaSPP6QFOrCEfyuZDkfOU9OBDg0R8SxViqKMJU5c4QOqLV5W07tUhryukr7IHv9XY4pxpcvNUyUtQQ==",
+  "dgSpecHash": "LWkijqndTsr2eairReYvdJP/HlonWVOREvoA1FDJoWSGM5YdBnX5XpTQzNHn5wpL6ZYMTDV/BXP03Tx7Z13Ccw==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\stockapp\\StockApp.csproj",
+  "projectFilePath": "D:\\Projects\\StockApp\\StockApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\End1essRage\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
     "C:\\Users\\End1essRage\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",

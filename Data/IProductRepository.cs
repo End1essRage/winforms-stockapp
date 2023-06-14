@@ -14,7 +14,7 @@ namespace StockApp.Data
         public Task<Product> GetById(int id);
         public Task CreateNew(Product product);
         public Task DeleteById(int id);
-        public Task UpdateProduct(Product product);
+        public Task Update(Product product);
         public Task SaveChanges();
         public int GetNewId();
     }
