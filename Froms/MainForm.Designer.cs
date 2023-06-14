@@ -30,17 +30,17 @@
         {
             components = new System.ComponentModel.Container();
             ProductTable = new DataGridView();
-            Id = new DataGridViewTextBoxColumn();
-            Name = new DataGridViewTextBoxColumn();
-            Description = new DataGridViewTextBoxColumn();
-            Status = new DataGridViewTextBoxColumn();
-            Button = new DataGridViewButtonColumn();
             AcceptedButtom = new Button();
             StockedButton = new Button();
             SoldButton = new Button();
             AddProductButton = new Button();
             ReportButton = new Button();
             productBindingSource = new BindingSource(components);
+            Id = new DataGridViewTextBoxColumn();
+            Name = new DataGridViewTextBoxColumn();
+            Description = new DataGridViewTextBoxColumn();
+            Status = new DataGridViewTextBoxColumn();
+            Button = new DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)ProductTable).BeginInit();
             ((System.ComponentModel.ISupportInitialize)productBindingSource).BeginInit();
             SuspendLayout();
@@ -58,36 +58,6 @@
             ProductTable.Size = new Size(543, 334);
             ProductTable.TabIndex = 0;
             ProductTable.CellClick += ProductTable_CellClick;
-            // 
-            // Id
-            // 
-            Id.HeaderText = "Id";
-            Id.Name = "Id";
-            Id.ReadOnly = true;
-            // 
-            // Name
-            // 
-            Name.HeaderText = "Name";
-            Name.Name = "Name";
-            Name.ReadOnly = true;
-            // 
-            // Description
-            // 
-            Description.HeaderText = "Описание";
-            Description.Name = "Description";
-            Description.ReadOnly = true;
-            // 
-            // Status
-            // 
-            Status.HeaderText = "Статус";
-            Status.Name = "Status";
-            Status.ReadOnly = true;
-            // 
-            // Button
-            // 
-            Button.HeaderText = "В следущий статус";
-            Button.Name = "Button";
-            Button.ReadOnly = true;
             // 
             // AcceptedButtom
             // 
@@ -143,6 +113,36 @@
             // 
             productBindingSource.DataSource = typeof(Models.Product);
             // 
+            // Id
+            // 
+            Id.HeaderText = "Id";
+            Id.Name = "Id";
+            Id.ReadOnly = true;
+            // 
+            // Name
+            // 
+            Name.HeaderText = "Название";
+            Name.Name = "Name";
+            Name.ReadOnly = true;
+            // 
+            // Description
+            // 
+            Description.HeaderText = "Описание";
+            Description.Name = "Description";
+            Description.ReadOnly = true;
+            // 
+            // Status
+            // 
+            Status.HeaderText = "Статус";
+            Status.Name = "Status";
+            Status.ReadOnly = true;
+            // 
+            // Button
+            // 
+            Button.HeaderText = "В следущий статус";
+            Button.Name = "Button";
+            Button.ReadOnly = true;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -154,6 +154,7 @@
             Controls.Add(StockedButton);
             Controls.Add(AcceptedButtom);
             Controls.Add(ProductTable);
+            Name = "MainForm";
             Text = "MainForm";
             Load += MainForm_Load;
             ((System.ComponentModel.ISupportInitialize)ProductTable).EndInit();
@@ -169,11 +170,11 @@
         private Button SoldButton;
         private Button AddProductButton;
         private Button ReportButton;
+        private BindingSource productBindingSource;
         private DataGridViewTextBoxColumn Id;
         private DataGridViewTextBoxColumn Name;
         private DataGridViewTextBoxColumn Description;
         private DataGridViewTextBoxColumn Status;
         private DataGridViewButtonColumn Button;
-        private BindingSource productBindingSource;
     }
 }

@@ -47,18 +47,18 @@
             NameLabel.AutoSize = true;
             NameLabel.Location = new Point(12, 87);
             NameLabel.Name = "NameLabel";
-            NameLabel.Size = new Size(39, 15);
+            NameLabel.Size = new Size(59, 15);
             NameLabel.TabIndex = 1;
-            NameLabel.Text = "Name";
+            NameLabel.Text = "Название";
             // 
             // DescriptionLabel
             // 
             DescriptionLabel.AutoSize = true;
             DescriptionLabel.Location = new Point(12, 131);
             DescriptionLabel.Name = "DescriptionLabel";
-            DescriptionLabel.Size = new Size(67, 15);
+            DescriptionLabel.Size = new Size(62, 15);
             DescriptionLabel.TabIndex = 2;
-            DescriptionLabel.Text = "Description";
+            DescriptionLabel.Text = "Описание";
             // 
             // DescriptionBox
             // 

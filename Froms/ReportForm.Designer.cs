@@ -29,9 +29,6 @@
         private void InitializeComponent()
         {
             HistoryTable = new DataGridView();
-            Product = new DataGridViewTextBoxColumn();
-            Status = new DataGridViewTextBoxColumn();
-            DateTime = new DataGridViewTextBoxColumn();
             menuStrip1 = new MenuStrip();
             StatusFilter = new ComboBox();
             DPickerFrom = new DateTimePicker();
@@ -41,6 +38,9 @@
             TPickerFrom = new DateTimePicker();
             TPickerTo = new DateTimePicker();
             ApplyButton = new Button();
+            Product = new DataGridViewTextBoxColumn();
+            Status = new DataGridViewTextBoxColumn();
+            DateTime = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)HistoryTable).BeginInit();
             SuspendLayout();
             // 
@@ -56,25 +56,6 @@
             HistoryTable.RowTemplate.Height = 25;
             HistoryTable.Size = new Size(409, 443);
             HistoryTable.TabIndex = 0;
-            // 
-            // Product
-            // 
-            Product.HeaderText = "Product";
-            Product.Name = "Product";
-            Product.ReadOnly = true;
-            // 
-            // Status
-            // 
-            Status.HeaderText = "Status";
-            Status.Name = "Status";
-            Status.ReadOnly = true;
-            // 
-            // DateTime
-            // 
-            DateTime.HeaderText = "DateTime";
-            DateTime.Name = "DateTime";
-            DateTime.ReadOnly = true;
-            DateTime.Width = 130;
             // 
             // menuStrip1
             // 
@@ -149,6 +130,25 @@
             ApplyButton.UseVisualStyleBackColor = true;
             ApplyButton.Click += ApplyButton_Click;
             // 
+            // Product
+            // 
+            Product.HeaderText = "Название товара";
+            Product.Name = "Product";
+            Product.ReadOnly = true;
+            // 
+            // Status
+            // 
+            Status.HeaderText = "Получен статус";
+            Status.Name = "Status";
+            Status.ReadOnly = true;
+            // 
+            // DateTime
+            // 
+            DateTime.HeaderText = "Дата и время";
+            DateTime.Name = "DateTime";
+            DateTime.ReadOnly = true;
+            DateTime.Width = 130;
+            // 
             // ReportForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -176,9 +176,6 @@
         #endregion
 
         private DataGridView HistoryTable;
-        private DataGridViewTextBoxColumn Product;
-        private DataGridViewTextBoxColumn Status;
-        private DataGridViewTextBoxColumn DateTime;
         private MenuStrip menuStrip1;
         private ComboBox StatusFilter;
         private DateTimePicker DPickerFrom;
@@ -188,5 +185,8 @@
         private DateTimePicker TPickerFrom;
         private DateTimePicker TPickerTo;
         private Button ApplyButton;
+        private DataGridViewTextBoxColumn Product;
+        private DataGridViewTextBoxColumn Status;
+        private DataGridViewTextBoxColumn DateTime;
     }
 }

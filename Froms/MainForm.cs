@@ -92,7 +92,7 @@ namespace StockApp
                 int productId = (int)ProductTable.Rows[e.RowIndex].Cells[0].Value;
 
                 await _service.ChangeProductStatus(productId);
-                
+
                 FillTable();
 
                 WarningForm warn = new WarningForm("Status changed successfully");
