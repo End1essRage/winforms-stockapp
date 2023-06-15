@@ -87,7 +87,7 @@ namespace StockApp
 
         private async void ProductTable_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (ProductTable.Columns[e.ColumnIndex] is DataGridViewButtonColumn)
+            if (ProductTable.Columns[Math.Abs(e.ColumnIndex)] is DataGridViewButtonColumn)
             {
                 int productId = (int)ProductTable.Rows[e.RowIndex].Cells[0].Value;
 

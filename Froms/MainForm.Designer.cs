@@ -154,7 +154,6 @@
             Controls.Add(StockedButton);
             Controls.Add(AcceptedButtom);
             Controls.Add(ProductTable);
-            Name = "MainForm";
             Text = "MainForm";
             Load += MainForm_Load;
             ((System.ComponentModel.ISupportInitialize)ProductTable).EndInit();
