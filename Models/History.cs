@@ -14,5 +14,9 @@ namespace StockApp.Models
         public int ToStatusId { get; set; }
         public virtual Status ToStatus { get; set; }
         public DateTime DateCreated { get; set; }
+        public Dictionary<string, string> d = new Dictionary<string, string>()
+        {
+
+        };
     }
 }

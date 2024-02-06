@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\StockApp\\StockApp.csproj": {}
+    "D:\\Projects\\stockapp\\StockApp.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\StockApp\\StockApp.csproj": {
+    "D:\\Projects\\stockapp\\StockApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\StockApp\\StockApp.csproj",
+        "projectUniqueName": "D:\\Projects\\stockapp\\StockApp.csproj",
         "projectName": "StockApp",
-        "projectPath": "D:\\Projects\\StockApp\\StockApp.csproj",
+        "projectPath": "D:\\Projects\\stockapp\\StockApp.csproj",
         "packagesPath": "C:\\Users\\End1essRage\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\StockApp\\obj\\",
+        "outputPath": "D:\\Projects\\stockapp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Users\\End1essRage\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
